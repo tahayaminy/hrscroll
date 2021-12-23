@@ -1,6 +1,6 @@
 # hrscroll
 
-##html code:
+## html code:
 - head
 ```
 <link rel="stylesheet" href="https://parswebdesigners.github.io/icon/css/all.min.css"/>
@@ -23,7 +23,7 @@
   <script src="hrscroll.js"></script>
 ```
 
-##css code:
+## css code:
 - change buttons color
 ```
 .hrscroll-btns{color:/*color*/}
