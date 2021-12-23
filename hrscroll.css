@@ -13,6 +13,7 @@
 .hrscroll-cont{
     position: relative;
     user-select: none;
+    direction: ltr;
 }
 /**/
 .hrscroll {
@@ -45,12 +46,12 @@
 .fa-chevron-circle-right{
     position: absolute;
     top: 50%;transform: translateY(-50%);
-    right: 5;
+    right: 5px;
 }
 .fa-chevron-circle-left{
     position: absolute;
     top: 50%;transform: translateY(-50%);
-    left: 5;
+    left: 5px;
 }
 @media only screen and (max-width:550px){
   .fa-chevron-circle-right,.fa-chevron-circle-left{
