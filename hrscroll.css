@@ -7,12 +7,10 @@
 .hrscroll-item{
   width: 120px;
   height: 200px;
-  background-color: cadetblue;
   display: inline-block;
   margin: 10px;
 }
 .hrscroll-cont{
-    background-color: rebeccapurple;
     position: relative;
     user-select: none;
 }
