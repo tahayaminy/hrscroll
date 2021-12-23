@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.hrscroll-btns{}
+/***/
+div {
+  width: 120px;
+  height: 200px;
+  background-color: cadetblue;
+  display: inline-block;
+  margin: 10px;
+}
+article{
+    background-color: rebeccapurple;
+    position: relative;
+    user-select: none;
+}
+/**/
+.hrscroll {
+  overflow-x: scroll;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hrscroll::-webkit-scrollbar {
+  display: none;
+}
+.hrscroll-btns{
+    width: 100%;
+    position: absolute;
+    top: 50%;transform: translateY(-50%);
+    font-size: 40px;
+}
+.hrscroll-btns>i{
+  opacity: .5;
+  transition: .2s;
+  cursor: pointer;
+}
+.hrscroll-btns>i:hover{
+  opacity: 1;
+}
+.fa-chevron-circle-right{
+    position: absolute;
+    top: 50%;transform: translateY(-50%);
+    right: 5;
+}
+.fa-chevron-circle-left{
+    position: absolute;
+    top: 50%;transform: translateY(-50%);
+    left: 5;
+}
+@media only screen and (max-width:550px){
+  .fa-chevron-circle-right,.fa-chevron-circle-left{
+    display: none !important;
+  }
+}
+.d-none{
+  display: none;
+}
+.d-block{
+  display: block;
+}
